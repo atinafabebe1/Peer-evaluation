@@ -3,10 +3,12 @@ import { Container, Table, Alert, Button } from 'react-bootstrap';
 import axios from 'axios';
 import PresentationList from '../../pages/PresentationList.js';
 import EvaluationForm from './EvaluationForm.js';
+import { useNavigate } from 'react-router-dom';
 
 export default function ProfessorPresentation() {
   const [presentations, setPresentation] = useState([]);
   const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchPresentations();
@@ -44,7 +46,9 @@ export default function ProfessorPresentation() {
       setError('Failed to edit presentation. Please try again later.');
     }
   };
-  const handleEvaluate = async (presentationId) => {};
+  const handleEvaluate = async (presentationId) => {
+    navigate(`/evaluate/${presentationId}`);
+  };
 
   const handleComplete = async (presentationId) => {
     try {

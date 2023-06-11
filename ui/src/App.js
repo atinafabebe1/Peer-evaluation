@@ -9,6 +9,7 @@ import PeerEvaluation from './components/evaluation/PeerEvaluation';
 import ProfessorEvaluation from './components/evaluation/ProfessorEvaluation';
 import CustomNavbar from './components/shared/Navbar';
 import Homepage from './pages/homepage';
+import EvaluationForm from './components/evaluation/EvaluationForm';
 
 function App() {
   const { isAuthenticated } = useContext(UserContext);
@@ -23,6 +24,7 @@ function App() {
           <Route path="/register" element={<Registration />} />
           <Route path="/upload" element={isAuthenticated ? <PresentationUpload /> : <Navigate to="/" replace />} />
           <Route path="/evaluation" element={isAuthenticated ? <Evaluation /> : <Navigate to="/" replace />} />
+          <Route path="/evaluate/:id" element={isAuthenticated ? <EvaluationForm /> : <Navigate to="/" replace />} />
           <Route path="/peer-evaluation" element={isAuthenticated ? <PeerEvaluation /> : <Navigate to="/" replace />} />
           <Route path="/professor-evaluation" element={isAuthenticated ? <ProfessorEvaluation /> : <Navigate to="/" replace />} />
         </Routes>

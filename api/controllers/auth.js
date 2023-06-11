@@ -4,7 +4,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const sendEmail = require('../utils/sendEmail');
-const async = require('async');
 
 // User Registration
 async function registerUser(req, res) {
@@ -41,21 +40,18 @@ async function registerUser(req, res) {
 
 // User Login
 async function loginUser(req, res) {
-  console.log(req.body);
   try {
     const { username, password } = req.body;
 
     // Check if the user exists in the database
     const user = await User.findOne({ username: username });
     if (!user) {
-      console.log('no user');
       return res.status(401).json({ message: 'Invalid username or password' });
     }
 
     // Check if the password is correct
     const match = await user.matchPassword(password);
     if (!match) {
-      console.log('not matched');
       return res.status(401).json({ message: 'Invalid username or password' });
     }
 
@@ -77,7 +73,10 @@ async function sendCredentialsToStudents(req, res) {
 
     const users = [];
 
-    const sendEmails = async.queue(async (row, callback) => {
+    const sendEmails = [];
+    const csvStream = fs.createReadStream(req.file.path).pipe(csv());
+
+    csvStream.on('data', async (row) => {
       try {
         const email = row.email;
 
@@ -85,7 +84,6 @@ async function sendCredentialsToStudents(req, res) {
         const existingUser = await User.findOne({ username: email });
         if (existingUser) {
           console.log(`User with username ${email} already exists. Skipping...`);
-          callback();
           return;
         }
 
@@ -103,34 +101,29 @@ async function sendCredentialsToStudents(req, res) {
         // Save the new user to the database
         const savedUser = await newUser.save();
         users.push(savedUser);
-        console.log(password);
-        console.log(savedUser.username);
+
         let subject = 'Your Account Credentials';
         let text = `Username: ${savedUser.username}\nPassword: ${password}`;
-        // Send an email to the student with the username and password
-        await sendEmail(email, subject, text);
-
-        callback();
+        console.log('email');
+        // Push the email sending task to the queue
+        sendEmails.push(sendEmail(email, subject, text));
       } catch (error) {
-        callback(error);
+        console.error('Error occurred while processing row:', error);
       }
-    }, 10); // Limit the number of concurrent email sends to 10
+    });
 
-    fs.createReadStream(req.file.path)
-      .pipe(csv())
-      .on('error', (error) => {
-        console.error('CSV Parsing Error:', error);
-        res.status(500).json({ error: 'Error parsing CSV file' });
-      })
-      .on('data', (row) => {
-        sendEmails.push(row);
-      })
-      .on('end', () => {
-        sendEmails.drain(() => {
-          console.log('Emails sent successfully');
-          res.json({ message: 'Emails sent successfully', users });
-        });
-      });
+    csvStream.on('end', async () => {
+      try {
+        // Wait for all the email sending tasks to complete
+        await Promise.all(sendEmails);
+
+        console.log('Emails sent successfully');
+        res.json({ message: 'Emails sent successfully', users });
+      } catch (error) {
+        console.error('Error occurred during email sending:', error);
+        res.status(500).json({ error: error.message });
+      }
+    });
   } catch (error) {
     console.error('Error:', error);
     res.status(500).json({ error: error.message });

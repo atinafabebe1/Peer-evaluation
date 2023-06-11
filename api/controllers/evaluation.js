@@ -34,7 +34,7 @@ async function getEvaluationById(req, res) {
 }
 async function getAllEvaluations(req, res) {
   try {
-    const evaluation = await Evaluation.findById({});
+    const evaluation = await Evaluation.find({});
 
     res.json({ evaluation });
   } catch (error) {
