@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Container, Table, Alert, Button } from 'react-bootstrap';
 import axios from 'axios';
 import PresentationList from '../../pages/PresentationList.js';
 import EvaluationForm from './EvaluationForm.js';
 import { useNavigate } from 'react-router-dom';
 import api from '../../api/api';
-
+import { UserContext } from '../../context/userContext.js';
 export default function ProfessorPresentation() {
+  const { user } = useContext(UserContext);
   const [presentations, setPresentation] = useState([]);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
@@ -20,7 +21,17 @@ export default function ProfessorPresentation() {
       const response = await api.get('/api/presentations?status=waiting&status=onprogress');
       const data = response.data?.data;
       console.log(data);
+      for (const presentation of data) {
+        console.log(user);
+        console.log(presentation);
+        const evaluationResponse = await api.get(`/api/evaluations?presentation=${presentation._id}&evaluator=${user.id}`);
+        const evaluationData = evaluationResponse.data;
+
+        presentation.hasEvaluated = evaluationData.count > 0;
+      }
+
       setPresentation(data);
+
       setError(null);
     } catch (error) {
       console.error('Failed to fetch presentations:', error);
@@ -48,7 +59,11 @@ export default function ProfessorPresentation() {
     }
   };
   const handleEvaluate = async (presentationId) => {
-    navigate(`/evaluate/${presentationId}`);
+    const presentation = presentations.find((presentation) => presentation._id === presentationId);
+
+    if (!presentation.hasEvaluated && presentation.status !== 'waiting') {
+      navigate(`/evaluate/${presentationId}`);
+    }
   };
 
   const handleComplete = async (presentationId) => {
@@ -97,9 +112,13 @@ export default function ProfessorPresentation() {
                     </Button>
                   ) : (
                     <div>
-                      <Button variant="outline-primary mx-2" size="sm" onClick={() => handleEvaluate(presentation._id)}>
-                        Evaluate
-                      </Button>
+                      {!presentation.hasEvaluated && presentation.status !== 'waiting' && (
+                        <div>
+                          <Button className="me-2" variant="primary" size="sm" onClick={() => handleEvaluate(presentation._id)}>
+                            Evaluate
+                          </Button>
+                        </div>
+                      )}
                       <Button variant="outline-danger mx-2" size="sm" onClick={() => handleComplete(presentation._id)}>
                         Complete
                       </Button>

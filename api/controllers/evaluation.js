@@ -19,6 +19,7 @@ async function createEvaluation(req, res) {
 
     // Calculate overall score based on the average of criteria scores
     const overallScore = calculateOverallScore(criteriaScores);
+    console.log(req.user._id);
     const newEvaluation = await Evaluation.create({
       presentation: id,
       evaluator: req.user._id,

@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Table, Badge, Pagination, Button, Alert, Toast } from 'react-bootstrap';
 import axios from 'axios';
 import Rating from 'react-rating-stars-component';
 import { useParams, useNavigate } from 'react-router-dom';
 import api from '../../api/api';
+import { UserContext } from '../../context/userContext';
 
 export default function EvaluationForm() {
+  const user = useContext(UserContext);
   const { id } = useParams();
   const [evaluations, setEvaluations] = useState([]);
   const [criteriaScores, setCriteriaScores] = useState([]);
@@ -83,9 +85,17 @@ export default function EvaluationForm() {
         criteriaScores
       });
       setSubmissionSuccess(true);
-      setTimeout(() => {
-        navigate('/peer-evaluation');
-      }, 4000); // Delay the navigation by 2000 milliseconds (2 seconds)
+      console.log('user');
+      console.log(user);
+      if (user.user.role === 'professor') {
+        setTimeout(() => {
+          navigate('/professor-evaluation');
+        }, 4000); // Delay the navigation by 2000 milliseconds (2 seconds)
+      } else {
+        setTimeout(() => {
+          navigate('/peer-evaluation');
+        }, 4000); // Delay the navigation by 2000 milliseconds (2 seconds)
+      }
     } catch (error) {
       console.error('Failed to send evaluations:', error);
       setSubmissionError('Failed to submit evaluations. Please try again.');

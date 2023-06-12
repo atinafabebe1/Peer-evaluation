@@ -44,7 +44,7 @@ router.get('/:id/download', PresentationController.downloadPresentation);
 router.get('/', advancedResult(PresentationModel, ''), PresentationController.getAllPresentations);
 router.put('/add/:id', PresentationController.addPresentationToSchedule);
 router.put('/complete/:id', PresentationController.completePresentationToSchedule);
-router.get('/:id', PresentationController.createReport);
+router.get('/report/:id', PresentationController.createReport);
 router.put('/:id', PresentationController.updatePresentationById);
 router.delete('/:id', PresentationController.deletePresentationById);
 

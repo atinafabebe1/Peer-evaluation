@@ -10,6 +10,8 @@ import ProfessorEvaluation from './components/evaluation/ProfessorEvaluation';
 import CustomNavbar from './components/shared/Navbar';
 import Homepage from './pages/homepage';
 import EvaluationForm from './components/evaluation/EvaluationForm';
+import PresentationPage from './components/report/Report.js';
+import PresentationReport from './components/report/PresentaionReport';
 
 function App() {
   const { isAuthenticated } = useContext(UserContext);
@@ -24,6 +26,8 @@ function App() {
           <Route path="/register" element={<Registration />} />
           <Route path="/upload" element={isAuthenticated ? <PresentationUpload /> : <Navigate to="/" replace />} />
           <Route path="/evaluation" element={isAuthenticated ? <Evaluation /> : <Navigate to="/" replace />} />
+          <Route path="/report" element={isAuthenticated ? <PresentationPage /> : <Navigate to="/" replace />} />
+          <Route path="/presentationreport/:presentationId" element={isAuthenticated ? <PresentationReport /> : <Navigate to="/" replace />} />
           <Route path="/evaluate/:id" element={isAuthenticated ? <EvaluationForm /> : <Navigate to="/" replace />} />
           <Route path="/peer-evaluation" element={isAuthenticated ? <PeerEvaluation /> : <Navigate to="/" replace />} />
           <Route path="/professor-evaluation" element={isAuthenticated ? <ProfessorEvaluation /> : <Navigate to="/" replace />} />

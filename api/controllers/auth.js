@@ -79,6 +79,8 @@ async function sendCredentialsToStudents(req, res) {
     csvStream.on('data', async (row) => {
       try {
         const email = row.email;
+        const firstName = row.firstName;
+        const lastName = row.lastName;
 
         // Check if the user already exists with the given email as username
         const existingUser = await User.findOne({ username: email });
@@ -94,6 +96,8 @@ async function sendCredentialsToStudents(req, res) {
         const newUser = new User({
           username: email,
           password,
+          firstName,
+          lastName,
           role: 'student',
           email
         });
@@ -106,7 +110,7 @@ async function sendCredentialsToStudents(req, res) {
         let text = `Username: ${savedUser.username}\nPassword: ${password}`;
         console.log('email');
         // Push the email sending task to the queue
-        sendEmails.push(sendEmail(email, subject, text));
+        sendEmails.push(sendEmailWithDelay(email, subject, text, 500 * sendEmails.length)); // 500ms delay multiplied by the number of emails sent so far
       } catch (error) {
         console.error('Error occurred while processing row:', error);
       }
@@ -129,6 +133,18 @@ async function sendCredentialsToStudents(req, res) {
     res.status(500).json({ error: error.message });
   }
 }
+const sendEmailWithDelay = async (email, subject, obmessage, delay) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      try {
+        await sendEmail(email, subject, obmessage);
+        resolve();
+      } catch (error) {
+        reject(error);
+      }
+    }, delay);
+  });
+};
 
 function generateRandomPassword() {
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';

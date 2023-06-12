@@ -40,6 +40,7 @@ async function createReport(req, res) {
 
     // Process each evaluation
     evaluations.forEach((evaluation) => {
+      console.log(evaluation);
       const evaluatorName = evaluation.evaluator.username;
 
       // Calculate the average score for each criteria
@@ -48,12 +49,10 @@ async function createReport(req, res) {
         const criteriaName = criteriaScore.criteria.criteria;
         if (!criteriaScores[criteriaName]) {
           criteriaScores[criteriaName] = {
-            totalScore: 0,
-            count: 0
+            totalScore: 0
           };
         }
         criteriaScores[criteriaName].totalScore += criteriaScore.score;
-        criteriaScores[criteriaName].count++;
       });
 
       // Calculate the overall average score
@@ -76,7 +75,7 @@ async function createReport(req, res) {
     // Add the total score and total evaluators to the report
     report.totalScore = totalScore;
     report.totalEvaluators = totalEvaluators;
-
+    console.log(report);
     res.status(200).json(report);
   } catch (error) {
     // Handle error
