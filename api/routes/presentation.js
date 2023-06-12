@@ -6,6 +6,7 @@ const PresentationModel = require('../models/presentation');
 const advancedResult = require('../middlewares/advancedResult');
 const multer = require('multer');
 const path = require('path');
+
 // Create a storage engine for multer
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -18,13 +19,13 @@ const storage = multer.diskStorage({
   }
 });
 
-// Create a file filter function to only allow mp3 files
+// Create a file filter function to only allow pptx files
 const fileFilter = (req, file, cb) => {
-  // if (file.mimetype === '.pptx') {
-  cb(null, true);
-  // } else {
-  //   cb(new Error('Invalid file type. Only MP3 files are allowed.'), false);
-  // }
+  if (file.mimetype === 'application/vnd.openxmlformats-officedocument.presentationml.presentation') {
+    cb(null, true);
+  } else {
+    cb(new Error('Invalid file type. Only PPTX files are allowed.'), false);
+  }
 };
 
 // Create an upload instance of multer with the storage and file filter options
@@ -33,13 +34,17 @@ const upload = multer({
   fileFilter: fileFilter
 });
 
-// Create a new song with file upload
+// Create a new presentation with file upload
 router.post('/', upload.single('presentationFile'), PresentationController.createPresentation);
+
+// Download presentation route
+router.get('/:id/download', PresentationController.downloadPresentation);
+
 // Presentation Routes
 router.get('/', advancedResult(PresentationModel, ''), PresentationController.getAllPresentations);
 router.put('/add/:id', PresentationController.addPresentationToSchedule);
 router.put('/complete/:id', PresentationController.completePresentationToSchedule);
-router.get('/:id', PresentationController.getPresentationById);
+router.get('/:id', PresentationController.createReport);
 router.put('/:id', PresentationController.updatePresentationById);
 router.delete('/:id', PresentationController.deletePresentationById);
 

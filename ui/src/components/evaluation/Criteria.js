@@ -42,10 +42,10 @@ const EvaluationForm = ({ addEvaluation, editEvaluation, selectedEvaluation, res
   };
 
   return (
-    <div className="p-4 bg-light border rounded">
-      <h2 className="text-center mb-4">Evaluation Form</h2>
+    <div className="p-2 bg-light border rounded ">
+      <h2 className="text-center mb-2">Evaluation Criterias</h2>
       <Form onSubmit={handleSubmit}>
-        <Row className="mb-3">
+        <Row className="mb-2">
           <Col sm={8} className="mx-auto">
             <Form.Group controlId="criteriaInput">
               <Form.Label>Criteria</Form.Label>
@@ -53,7 +53,7 @@ const EvaluationForm = ({ addEvaluation, editEvaluation, selectedEvaluation, res
             </Form.Group>
           </Col>
         </Row>
-        <Row className="mb-3">
+        <Row className="mb-2">
           <Col sm={8} className="mx-auto">
             <Form.Group controlId="weightageInput">
               <Form.Label>Weightage</Form.Label>
@@ -69,11 +69,11 @@ const EvaluationForm = ({ addEvaluation, editEvaluation, selectedEvaluation, res
         </Row>
         <Row>
           <Col className="text-center">
-            <Button variant="primary" type="submit" className="me-2">
+            <Button variant="primary" type="submit" className="me-2 btn btn-sm">
               {selectedEvaluation ? 'Edit Evaluation' : 'Add Evaluation'}
             </Button>
             {selectedEvaluation && (
-              <Button variant="secondary" onClick={resetForm}>
+              <Button variant="secondary" className="btn btn-sm" onClick={resetForm}>
                 Cancel
               </Button>
             )}

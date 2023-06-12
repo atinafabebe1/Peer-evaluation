@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button, Alert, Spinner } from 'react-bootstrap';
 import axios from 'axios';
-
+import api from '../../api/api';
 const PresentationUpload = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
@@ -38,7 +38,7 @@ const PresentationUpload = () => {
     formData.append('presentationFile', presentationFile);
 
     try {
-      const response = await axios.post('http://localhost:3500/api/presentations', formData, {
+      const response = await api.post('/api/presentations', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
@@ -57,7 +57,7 @@ const PresentationUpload = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container p-4 w-75">
       <h2>Upload Presentation</h2>
       {error && <Alert variant="danger">{error}</Alert>}
       <Form onSubmit={handleSubmit} className="needs-validation" noValidate>

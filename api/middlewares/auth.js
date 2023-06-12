@@ -1,49 +1,47 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
-require('dotenv').config();
+const ErrorResponse = require('../utils/errorResponse');
+const asyncHandler = require('./async');
 
-// Middleware to authenticate the user
-function auth(req, res, next) {
-  try {
-    // Get the authorization header
-    const token = req.headers.authorization;
+//Protect Routes
+const Auth = asyncHandler(async (req, res, next) => {
+  // verify user is authenticated
 
-    // Check if the token exists
-    if (!token) {
-      return res.status(401).json({ message: 'Authorization token not found' });
-    }
+  let token;
 
-    // Verify and decode the token
-    const decoded = jwt.verify(token, process.env.SECRET_KEY);
-
-    // Check if the user exists in the database
-    User.findById(decoded.userId, (err, user) => {
-      if (err || !user) {
-        return res.status(401).json({ message: 'Unauthorized access' });
-      }
-
-      // Attach the user object to the request
-      req.user = user;
-
-      // Continue to the next middleware
-      next();
-    });
-  } catch (error) {
-    res.status(401).json({ message: 'Unauthorized access' });
+  if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
+    // Extract token from authorization header
+    token = req.headers.authorization.split(' ')[1];
   }
-}
+  if (!token) {
+    return next(new ErrorResponse('Not authroized to access this route', 401));
+  }
 
-// Middleware to authorize user roles
-function authorize(roles) {
+  try {
+    //verify token
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    req.user = await User.findById(decoded.id).select({
+      username: 1,
+      role: 1,
+      _id: 1
+    });
+    next();
+  } catch (error) {
+    return next(new ErrorResponse('Not authroized to access this route', 401));
+  }
+});
+
+const Authorize = (...roles) => {
   return (req, res, next) => {
-    // Check if the user role is in the allowed roles
     if (!roles.includes(req.user.role)) {
-      return res.status(403).json({ message: 'Forbidden access' });
+      return next(new ErrorResponse(`User role ${req.user.role} is not authorized to access this route`, 403));
     }
-
-    // Continue to the next middleware
     next();
   };
-}
+};
 
-module.exports = { auth, authorize };
+module.exports = {
+  Auth,
+  Authorize
+};

@@ -3,11 +3,11 @@ const EvaluationCriteria = require('../models/criteria');
 const createEvaluationCriteria = async (req, res) => {
   try {
     console.log(req.body);
-    const { criteria, weightage } = req.body;
+    const { evaluation } = req.body;
 
     const newCriteria = new EvaluationCriteria({
-      criteria,
-      weightage
+      criteria: evaluation.criteria,
+      weightage: evaluation.weightage
     });
 
     const savedCriteria = await newCriteria.save();

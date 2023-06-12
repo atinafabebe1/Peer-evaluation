@@ -46,6 +46,11 @@ function CustomNavbar() {
                 </Nav.Link>
               )}
               {user?.role === 'professor' && (
+                <Nav.Link as={Link} to="/report" className="nav-link">
+                  Report
+                </Nav.Link>
+              )}
+              {user?.role === 'professor' && (
                 <Nav.Link as={Link} to="/register" className="nav-link">
                   Register
                 </Nav.Link>

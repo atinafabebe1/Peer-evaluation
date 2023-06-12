@@ -4,6 +4,7 @@ import axios from 'axios';
 import PresentationList from '../../pages/PresentationList.js';
 import EvaluationForm from './EvaluationForm.js';
 import { useNavigate } from 'react-router-dom';
+import api from '../../api/api';
 
 export default function ProfessorPresentation() {
   const [presentations, setPresentation] = useState([]);
@@ -16,7 +17,7 @@ export default function ProfessorPresentation() {
 
   const fetchPresentations = async () => {
     try {
-      const response = await axios.get('http://localhost:3500/api/presentations?status=waiting&status=onprogress');
+      const response = await api.get('/api/presentations?status=waiting&status=onprogress');
       const data = response.data?.data;
       console.log(data);
       setPresentation(data);
@@ -29,7 +30,7 @@ export default function ProfessorPresentation() {
 
   const handleAddToSchedule = async (presentationId) => {
     try {
-      const response = await axios.put(`http://localhost:3500/api/presentations/add/${presentationId}`, {});
+      const response = await api.put(`/api/presentations/add/${presentationId}`, {});
       console.log(response);
       const data = response.data.presentation;
 
@@ -52,7 +53,7 @@ export default function ProfessorPresentation() {
 
   const handleComplete = async (presentationId) => {
     try {
-      const response = await axios.put(`http://localhost:3500/api/presentations/complete/${presentationId}`, {});
+      const response = await api.put(`/api/presentations/complete/${presentationId}`, {});
       console.log(response);
       const data = response.data.presentation;
 

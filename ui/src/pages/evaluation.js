@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Container, Table, Alert } from 'react-bootstrap';
 import EvaluationForm from '../components/evaluation/Criteria';
+import api from '../api/api';
 
 export default function Evaluation() {
   const [evaluations, setEvaluations] = useState([]);
@@ -14,11 +15,10 @@ export default function Evaluation() {
 
   const fetchEvaluations = async () => {
     try {
-      const response = await fetch('http://localhost:3500/api/evaluation-criteria');
-      if (!response.ok) {
-        throw new Error('Failed to fetch evaluations');
-      }
-      const data = await response.json();
+      const response = await api.get('/api/evaluation-criteria');
+
+      const data = response.data;
+      console.log(response);
       setEvaluations(data);
       setError(null);
     } catch (error) {
@@ -32,21 +32,11 @@ export default function Evaluation() {
       const weightage = evaluation.weightage;
       const evaluationWithWeightage = { ...evaluation, weightage };
 
-      const response = await fetch('http://localhost:3500/api/evaluation-criteria', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(evaluationWithWeightage)
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        setEvaluations([...evaluations, data]);
-        setError(null);
-      } else {
-        throw new Error('Failed to add evaluation');
-      }
+      const response = await api.post('/api/evaluation-criteria', { evaluation });
+      console.log(response);
+      const data = response.data;
+      setEvaluations([...evaluations, data]);
+      setError(null);
     } catch (error) {
       console.error('Failed to add evaluation:', error);
       setError('Failed to add evaluation. Please try again later.');
@@ -59,24 +49,14 @@ export default function Evaluation() {
       const weightage = updatedEvaluation.weightage;
       const evaluationWithWeightage = { ...updatedEvaluation, weightage };
 
-      const response = await fetch(`http://localhost:3500/api/evaluation-criteria/${evaluationId}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(evaluationWithWeightage)
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        const updatedEvaluations = [...evaluations];
-        updatedEvaluations[index] = data;
-        setEvaluations(updatedEvaluations);
-        setSelectedEvaluation(null);
-        setError(null);
-      } else {
-        throw new Error('Failed to edit evaluation');
-      }
+      const response = await api.put(`/api/evaluation-criteria/${evaluationId}`, evaluationWithWeightage);
+      console.log(response);
+      const data = response.data;
+      const updatedEvaluations = [...evaluations];
+      updatedEvaluations[index] = data;
+      setEvaluations(updatedEvaluations);
+      setSelectedEvaluation(null);
+      setError(null);
     } catch (error) {
       console.error('Failed to edit evaluation:', error);
       setError('Failed to edit evaluation. Please try again later.');
@@ -86,19 +66,13 @@ export default function Evaluation() {
   const deleteEvaluation = async (index) => {
     try {
       const evaluationId = evaluations[index]._id;
-      const response = await fetch(`http://localhost:3500/api/evaluation-criteria/${evaluationId}`, {
-        method: 'DELETE'
-      });
+      const response = await api.delete(`/api/evaluation-criteria/${evaluationId}`);
 
-      if (response.ok) {
-        const updatedEvaluations = [...evaluations];
-        updatedEvaluations.splice(index, 1);
-        setEvaluations(updatedEvaluations);
-        setSelectedEvaluation(null);
-        setError(null);
-      } else {
-        throw new Error('Failed to delete evaluation');
-      }
+      const updatedEvaluations = [...evaluations];
+      updatedEvaluations.splice(index, 1);
+      setEvaluations(updatedEvaluations);
+      setSelectedEvaluation(null);
+      setError(null);
     } catch (error) {
       console.error('Failed to delete evaluation:', error);
       setError('Failed to delete evaluation. Please try again later.');
@@ -117,17 +91,15 @@ export default function Evaluation() {
   };
 
   return (
-    <Container className="mt-5">
-      <h1 className="display-4 text-center mb-4">Presentation Evaluation</h1>
-      <p className="lead text-center mb-4">Please evaluate the student presentations based on the following criteria:</p>
+    <Container className="">
       <EvaluationForm
         addEvaluation={addEvaluation}
         editEvaluation={editEvaluation}
         selectedEvaluation={selectedEvaluation}
         resetEvaluation={resetEvaluation}
       />
-      <hr className="my-4" />
-      <h2 className="h4 mt-4 mb-3">Evaluation List</h2>
+      <hr className="my-2" />
+      <h2 className="h4 mt-4 mb-2">Evaluation List</h2>
       {error && <Alert variant="danger">{error}</Alert>}
       {evaluations.length === 0 ? (
         <p className="text-muted">No evaluations found.</p>
