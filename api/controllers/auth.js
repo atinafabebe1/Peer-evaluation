@@ -80,7 +80,7 @@ async function sendCredentialsToStudents(req, res) {
         const email = row.email;
         const firstName = row.firstName;
         const lastName = row.lastName;
-
+        console.log(row.email);
         // Check if the user already exists with the given email as username
         const existingUser = await User.findOne({ username: email });
         if (existingUser) {
