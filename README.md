@@ -4,6 +4,12 @@ The MERN Stack Peer Evaluation System is an interactive platform for student pre
 
 **Please note that the code implementation is not yet complete and requires refactoring.**
 
+### demo
+
+https://github.com/atinafabebe1/Peer-evaluation/assets/109695272/b11efadf-3827-4ca6-a7e0-22072c9e4095
+
+ demo
+
 ## Features
 
 - Seamless presentation upload: Students can easily upload their presentation materials, including slides, audio, or video recordings.
