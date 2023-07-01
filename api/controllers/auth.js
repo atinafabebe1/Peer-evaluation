@@ -42,7 +42,6 @@ async function registerUser(req, res) {
 async function loginUser(req, res) {
   try {
     const { username, password } = req.body;
-
     // Check if the user exists in the database
     const user = await User.findOne({ username: username });
     if (!user) {

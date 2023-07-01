@@ -6,6 +6,8 @@ const PresentationModel = require('../models/presentation');
 const advancedResult = require('../middlewares/advancedResult');
 const multer = require('multer');
 const path = require('path');
+const { extractTextFromPptx } = require('../utils/pptxUtils.js');
+const { performSentimentAnalysis } = require('../utils/nlpUtils.js');
 
 // Create a storage engine for multer
 const storage = multer.diskStorage({
@@ -47,5 +49,6 @@ router.put('/complete/:id', PresentationController.completePresentationToSchedul
 router.get('/report/:id', PresentationController.createReport);
 router.put('/:id', PresentationController.updatePresentationById);
 router.delete('/:id', PresentationController.deletePresentationById);
+router.get('/evaluate/:id', PresentationController.evaluate);
 
 module.exports = router;

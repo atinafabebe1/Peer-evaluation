@@ -3,6 +3,33 @@ const { startOfMonth, endOfMonth } = require('date-fns');
 const Evaluation = require('../models/Evaluation');
 const path = require('path');
 const fs = require('fs');
+// const { extractTextFromPptx } = require('../utils/pptxUtils');
+const { performSentimentAnalysis } = require('../utils/nlpUtils');
+
+const { execSync } = require('child_process');
+const textract = require('textract');
+
+const extractTextFromPptx = async (filePath) => {
+  return new Promise((resolve, reject) => {
+    const outputPath = 'extracted_text.txt'; // Choose a suitable file path for the extracted text
+    textract.fromFileWithPath(filePath, { preserveLineBreaks: true }, (error, text) => {
+      if (error) {
+        console.error('Error extracting text from pptx:', error);
+        reject(error);
+      } else {
+        fs.writeFile(outputPath, text, (err) => {
+          if (err) {
+            console.error('Error saving extracted text:', err);
+            reject(err);
+          } else {
+            resolve(outputPath);
+          }
+        });
+      }
+    });
+  });
+};
+
 // Create Presentation
 async function createPresentation(req, res) {
   console.log(req.file);
@@ -215,6 +242,21 @@ async function deletePresentationById(req, res) {
   }
 }
 
+async function evaluate(req, res) {
+  try {
+    const presentation = await Presentation.findById(req.params.id);
+    const extractedText = await extractTextFromPptx(`uploads/files/${presentation.slides}`);
+
+    // Call the sentiment analysis function to get the sentiment score
+    const sentimentScore = await performSentimentAnalysis(extractedText);
+
+    res.json({ sentimentScore });
+  } catch (error) {
+    console.error('Error evaluating presentation:', error);
+    res.status(500).json({ error: 'Failed to evaluate presentation.' });
+  }
+}
+
 module.exports = {
   completePresentationToSchedule,
   addPresentationToSchedule,
@@ -224,5 +266,6 @@ module.exports = {
   updatePresentationById,
   deletePresentationById,
   createReport,
+  evaluate,
   downloadPresentation
 };

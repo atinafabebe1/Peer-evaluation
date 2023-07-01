@@ -1,0 +1,296 @@
+From Chapter 1Project Classification 
+Boehm [1981] Classified project into 3 different types.
+Organic: the project which deals with well understood application/s, size of development team is small, and team members are experienced in developing similar types of projects.
+Semidetached: the development consists of a mixture of experienced and inexperienced staff. Team members may have limited experience on related system development.
+Embedded: A development project is considered to be of embedded type, if the software being developed is strongly coupled to complex hardware.
+Software projects can be grouped into nine broad types
+Software development
+Package implementation
+System enhancement
+Consultancy and business analysis assignments
+Systems migration
+Infrastructure implementation
+Outsourcing (and in-sourcing)
+Disaster recovery
+Smaller IS projects
+Main Project Actors
+If you consider your final year project the three main actors in the project:
+You (the student),
+The supervisor and
+The examiner
+Of the three actors, you are the most important, since you are the one who moves the project forward.
+Three main parameters of project 
+Time
+Scope 
+Cost 
+These three parameters produce project ''quality triangle''
+What is Project Management?
+Project management is the process of planning and controlling the development of a system within a specified timeframe at a minimum cost with the right functionality.
+It is the application of knowledge, skills, tools and techniques to project activities to meet project requirements
+It is accomplished through the application and integration of the project management processes of initiating, planning, executing, monitoring and controlling, and closing
+The project manager is the person who is responsible for accomplishing the project objectives.
+Structure of Project Management
+Generally the structure categorized into three sections, such as:-
+The Project Management Framework:-provides a basic structure for understanding project management for example:-
+Introduction, defines key terms and provides an overview.
+Project Life Cycle and Organization: describes the environment in which projects operate. Managing the day-to-day activities of the project is necessary, but not sufficient, to ensure success.
+The Standard for Project Management of a Project:-specifies all the project management processes that are used by the project team to manage a project.
+Project Management Processes for a Project which describes the five required Project Management Process Groups for any project such as initiating, planning, executing, monitoring and controlling, and closing.
+The Project Management Knowledge Areas:-such as organizes the project management processes from Management Process Groups into Knowledge Areas.
+
+Project Management Knowledge Area 
+Project Integration Management:- describes the processes and activities that integrate the various elements of project management, which are identified, defined, combined, unified and coordinated within the Project Management Process Groups.
+It consists of the Develop Project Charter, Develop Preliminary Project Scope Statement, Develop Project Management Plan, Direct and Manage Project Execution, Monitor and Control Project Work, Integrated Change Control, and Close Project management processes.
+Project Scope Management
+Project Scope Management describes the processes involved in ascertaining that the project.
+It consists of the Scope Planning, Scope Definition, Scope Verification, and Scope Control project management processes.
+Project Time Management describes the processes concerning the timely completion of the project.
+It consists of the Activity Definition, Activity Sequencing, Activity Resource Estimating, Activity Duration Estimating, Schedule Development and Schedule Control project management processes.
+PMKA
+Project Cost Management describes the processes involved in planning, estimating, budgeting, and controlling costs so that the project is completed within the approved budget.
+It consists of the Cost Estimating, Cost Budgeting, and Cost Control project management processes.
+Project Quality Management which is the processes involved in assuring that the project will satisfy the objectives for which it was undertaken.
+It consists of the Quality Planning, Perform Quality Assurance, and Perform Quality Control project management processes.
+ PMKA
+Project Human Resource Management describes the processes that organize and manage the project team.
+It consists of the Human Resource Planning, Acquire Project Team, Develop Project Team, and Manage Project Team project management processes.
+Project Communications Management:- describes the processes concerning with timely and appropriate generation, collection, dissemination, storage and ultimate disposition of project information.
+It consists of the Communications Planning, Information Distribution, Performance Reporting, and Manage Stakeholders project management processes.
+PMKA
+Project Risk Management:- the processes concerned with conducting risk management on a project.
+It consists of the Risk Management Planning, Risk Identification, Qualitative Risk Analysis, Quantitative Risk Analysis, Risk Response Planning, and Risk Monitoring and Control project management processes.
+Project Procurement Management:- describes the processes that purchase or acquire products, services or results, as well as contract management processes.
+It consists of the Purchases and Acquisitions plan, Plan Contracting, Request Seller Responses, Select Sellers, Contract Administration, and Contract Closure project management processes.
+Project Life Cycle Model and Paradigms
+Project Life Cycle:- defines the phases that connect the beginning of a project to its end.
+The project life cycle definition can help the project manager clarify whether to treat the feasibility study as the first project phase or as a separate, stand-alone project.
+feasibility study is a way of analysis and evaluation of a proposed project to determine if it is technically feasible, feasible within the estimated cost, and if it will be profitable.
+The phases of a project life cycle are not the same as the Project Management Process Groups.
+The transition from one phase to another within a project life cycle.
+Project Life Cycle 
+What technical work to do in each phase
+Who is involved in each phase
+How to control and approve each phase.
+
+
+
+
+
+
+
+
+
+Typical Project Cost and Staffing Level Across the Project Life Cycle
+In the project life cycle:-
+The level of uncertainty is highest and, hence, risk of failing to achieve the objectives is greatest at the start of the project.
+The certainty of completion generally gets progressively better as the project continues.
+Cost and staffing levels are low at the start, peak during the intermediate phases, and drop rapidly as the project draws to a conclusion.
+CHAPTER TWOPROJECT PLANNING
+PROJECT PLANNING
+Used for managing the overall project activity.
+In the planning process the planning groups identify, define, and mature the project scope, project cost, and schedule the project activities that occur within the project.
+As new project information is discovered, additional dependencies, requirements, risks, opportunities and constraints will be identified or resolved.
+While planning the project, the project team should involve all appropriate stakeholders, depending upon their influence on the project and its outcomes.
+Activities in the Project Planning
+Introduction
+Objectives
+functions of the project
+Performance Issues
+Management and Technical Constraints
+Project Estimates
+We may use Historical Data
+Estimation Techniques Used
+Effort, Time, and Cost Estimates
+Schedule
+Work Breakdown Structure (WBS)
+Gantt Chart Representation
+Activities in the Project Planning…
+Project Resources
+People
+Hardware and Software
+Staff Organization
+Team Structure
+Management Reporting
+Risk Management Plan
+Risk Analysis, Identification, Risk Estimation
+Project Tracking and Control Plan
+Miscellaneous Plans
+Quality Assurance Plan:-which is performed based on the standard. Standards are the key to effective quality management.
+Project Parameter Estimations
+Project estimations
+To estimate various project parameters like project size, cost, effort, and duration by using various estimation techniques.
+
+Project Estimation Techniques
+Empirical Estimation
+Expert Judgment
+Delphi cost estimation
+Heuristic estimation Technique
+COCOMO
+Analytical estimation technique
+Halstead software science
+Empirical Estimation
+Expert Judgment
+Here an expert guess about problem size after analyzing the problem.
+Usually expert estimates the cost of modules of each subsystem to get the overall estimation of system.
+Problem:-There may be personal bias and interference.
+Delphi cost estimation:-
+Here estimation is carried out by an expert team with a coordinator.
+The coordinator gives SRS document and a cost recording form to each expert.
+Each expert records cost in the form and submits to coordinator.
+Coordinator compiles several times and prepare the final cost estimation report.
+Heuristic estimation Technique
+COCOMO(Constructive cost estimation model)
+Effort= a1.(Size)power of a2 Programmer Months
+Tdev= b1.(Effort)power of b2 Months
+Where size of project= KLOC(Kilo line of codes) and a1,a2, b1,b2 are the constants for each category of project.
+Effort= total effort required to develop a project.
+Estimation Steps:-
+Determine size of the product(KLOC)
+From the size estimated, determine the effort needed.
+From the effort estimate, determine project duration, and cost
+Heuristic estimation Technique
+Estimation of development effort
+For the three classes of projects, the formulas for estimating the effort based on the code size are :-
+Organic: Effort=2.4(KLOC)1.05 PM
+Semidetached: Effort=3.0(KLOC)1.12 PM
+Embedded: Effort=3.6(KLOC)1.20 PM
+Estimation of development Time
+Organic: Tdevt=2.5(Effort)0.38 months
+Semidetached: Tdev=2.5(Effort)0.35 months
+Embedded: Tdevt=2.5(Effort)0.32 months
+Example:- Assume the size of a project= 32KLOC
+Basic COCOMO estimation formula for organic type of project:
+Effort=2.4(32Kloc)power of 1.05=91PM 
+development time = 2.5(434PM) power of 0.38 = 25 months
+Analytical estimation technique
+Halstead software science:- a software metrics introduced by Howard Halstead to estimate the project size based on over all program length
+Used a few primitive program parameters to estimate a given project
+Most of the time this technique is not applied
+
+Project scheduling Steps
+Project scheduling is an important project planning activity used to decide which task should be taken first.
+Identify all tasks needed to complete a project
+Break down large tasks into smaller activities.
+Determine dependencies among them
+Establish time duration to complete activities.
+Allocate resources to activities
+Monitor the timely progress of the activities
+Step-1 and 2 :- after identifying tasks the project manager break down this large task into smaller activities by using a work breakdown structure
+Project scheduling Steps
+Step-3 and 4:-The task dependencies define partial ordering of tasks and the dependencies among the activities can be determined by using an activity network.
+
+
+
+
+
+
+
+
+
+
+Activity Network of MIS application
+Step-5:- allocate resources to activities using a Gantt chart
+It is a special type of bar chart, where each bar represents an activity.
+Step-6:- Monitor the timely progress of the activities
+PERT(project evaluation and review technique)also identify the parallel activities in a project
+3-estimates are made.:-
+Optimistic Time= 12 Months
+Likely Time estimate= 15 months
+Pessimistic Time Estimate= 20 months
+Project Scope Management
+Includes the processes required to ensure that the project includes all the work required to complete the project successfully.
+primarily concerned with defining and controlling what is and is not included in the project.
+It has its own processes
+Project Scope Management Processes 
+Scope Planning:- Creating a project scope management plan that documents how the project scope will be defined, verified, controlled and how the work breakdown structure (WBS) will be created and defined. 
+Scope Definition:-Developing a detailed project scope statement as the basis for future project decisions.
+Create WBS:-dividing the major project deliverables and project work into smaller and more manageable components.
+Scope Verification:- Formalizing acceptance of the completed project deliverables.
+Scope Control:-controlling changes to the project scope.
+Those processes interact with each other and with processes in the other Knowledge Areas as well.
+Each process can involve effort from one or more persons or groups of persons, based on the needs of the project
+In the project context, the term scope can refer to:-
+Product scope:-The features and functions that characterize a product, service or result.(focus on What?)
+Project scope:-The work that needs to be accomplished to deliver a product, service or result with the specified features and functions.(focus on How)
+Scope Planning/Input...
+Enterprise Environmental Factors:- Such as the organization culture, infrastructure, tools, human resources, personnel policies and marketplace conditions that could affect how project scope is managed. 
+Organizational Process Assets:- The formal and informal policies, procedures and guidelines that could impact how the project scope is managed.(e.g Historical information about previous projects)
+Project Charter:- Formal document which authorizes a project or a project phase.
+Preliminary Project Scope Statement:- Initial project scope statement document that provides a high level scope narrative.
+Project Management Plan:- Formal document which is necessary to define, prepare, integrate, and coordinate all subsidiary plans
+Scope Planning/Tools and Techniques
+Expert Judgment:- Related to how equivalent projects have managed scope, is used in developing the project scope management plan.
+Templates, Forms, Standards:- Includes work breakdown structure templates, scope management plan templates and project scope change control forms.
+Scope Planning/Out put
+The project scope management plan:-Document which provides guidance on how the project scope will be defined, documented, verified, managed and controlled by the project management team.
+Scope Definition/Input
+Organizational Process Assets
+Project Charter
+Preliminary Project Scope Statement
+Project Scope Management Plan:-Which was the output of scope planning
+Approved Change Requests:-Can cause a change to project scope, project quality, estimated costs or project schedule.
+Scope Definition/Tools and Techniques
+Product Analysis:- Includes techniques such as product breakdown, system analysis, functional analysis and the like
+Alternatives Identification:- Used to generate different approaches to execute and perform the work of the project.(E.g Brainstorming)
+Expert Judgment (related to this task)
+Stakeholder Analysis:-Identifies the influence and interests of the various stakeholders and documents their needs and expectations
+Scope Definition/Output
+Project Scope Statement (Detail description about Project objectives, Product scope description, Project requirements etc.)
+Requested Changes:-May exist to the project management plan and its
+subsidiary plans may be developed during the Scope Definition process
+Project Scope Management Plan (Updates):- may be updated to include approved change requests resulting from the project Scope Definition process.
+Create WBS/Input
+Organizational Process Assets
+Project Scope Statement:-just out put of scope definition
+Project Scope Management Plan:-out put of scope definition
+Approved Change Requests
+Create WBS/Tools and Techniques
+Work Breakdown Structure templates
+Decomposition:-Is the subdivision of project deliverables into smaller and more manageable components until the work and deliverables are defined to the work package level.
+Create WBS/Out Put
+Project Scope Statement (Updates):- If approved change requests result from the Create WBS process
+Work Breakdown Structure
+WBS Dictionary:- The document generated by the Created WBS process that supports the WBS
+Scope Baseline:- The approved detailed project scope statement associated with WBS and WBS dictionary
+Project Scope Management Plan (Updates):-If approved change requests result from the Create WBS process
+Requested Changes:-May processed for review and approval through the integrated change control process for the next phase.
+Scope Verification/Input
+Project Scope Statement:-out put of WBS
+WBS Dictionary:-out put of WBS
+Project Scope Management Plan:-out put of WBS
+Deliverables:-Those that have been fully or partially completed Project Execution process
+Scope Verification/Tools and Techniques
+Inspections:-Includes activities such as measuring, examining and verifying to determine whether the work and deliverables meet requirements and product acceptance criteria.
+Scope Verification/Out Put
+Accepted Deliverables:- The Scope Verification process document those completed deliverables that have been accepted
+Requested Changes:-May be processed for review through the Integrated Change Control process
+Recommended Corrective Actions:-May be done in the process
+Scope Control/Input
+Project scope statement:-Associated with WBS and WBS dictionary which defines the project scope baseline and product scope.
+Work Breakdown Structure
+WBS Dictionary
+Project Scope Management Plan
+Performance Reports:- Provide information on project work performance, such as interim deliverables that have been completed.
+Approved Change Requests
+Work Performance Information:-Give us information about the performance of the work
+Scope Control/Tools and Techniques
+Change Control System:-Can be documentation or tracking systems(Software) necessary for authorizing changes.
+Variance Analysis:-A system used to assess the magnitude of variation.
+Re-planning:- If There is approved change requests on WBS, WBS dictionary, scope statement and other components of the project management plan 
+Configuration Management System:-A system that Assure requested changes to the project scope and product scope are thoroughly considered and documented before being processed through the Integrated Change Control process.
+Scope Control/Out Put
+Project Scope Statement (Updates):-If the approved change requests have an effect upon the project scope
+Work Breakdown Structure (Updates):-If the approved change requests have an effect upon the project scope
+WBS Dictionary (Updates)
+Scope Baseline (Updates)
+Requested Changes
+Recommended Corrective Action
+Organizational Process Assets (Updates)
+Project Management Plan (Updates)
+Group Assignment
+Apply the formula of Halstead Software Metrics with your own example of software project 
+Clearly determine the sequence of steps in Spiral Model i.e. order of phases in Spiral model
+Explain about SDLC and Project Development Lifecycle with appropriate example
+Develop a program that can implement the COCOMO model for Organic software development (either in java or in C++ program) 
+Submission Date: April 20, 2023
+Group should be in order of your ID.NO (the first four student up to the last five students)!

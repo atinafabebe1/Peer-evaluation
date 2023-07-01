@@ -1,8 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Container, Table, Alert, Button } from 'react-bootstrap';
-import axios from 'axios';
-import PresentationList from '../../pages/PresentationList.js';
-import EvaluationForm from './EvaluationForm.js';
 import { useNavigate } from 'react-router-dom';
 import api from '../../api/api';
 import { UserContext } from '../../context/userContext.js';
@@ -84,7 +81,6 @@ export default function ProfessorPresentation() {
   return (
     <Container className="mt-5">
       <h1 className="display-4 text-center mb-4">Professor Evaluation</h1>
-      <PresentationList />
       <hr className="my-4" />
       <h2 className="h4 mt-4 mb-3">Presentation List</h2>
       {error && <Alert variant="danger">{error}</Alert>}

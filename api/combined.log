@@ -2454,3 +2454,729 @@
 {"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
 {"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
 {"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluation-criteria"}
+{"level":"info","message":"Received PUT request at /api/evaluation-criteria/648572f1c2e909a5278ec801"}
+{"level":"info","message":"Received PUT request at /api/evaluation-criteria/648572f1c2e909a5278ec801"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received PUT request at /api/presentations/add/6487292a77db4898051353e2"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487292a77db4898051353e2&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648717fc9664ea2f8fff191a&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received PUT request at /api/presentations/complete/6487292a77db4898051353e2"}
+{"level":"info","message":"Received PUT request at /api/presentations/complete/648717fc9664ea2f8fff191a"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487292a77db4898051353e2"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487292a77db4898051353e2"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487292a77db4898051353e2"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487292a77db4898051353e2"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received DELETE request at /api/evaluation-criteria/6487290677db4898051353d1"}
+{"level":"info","message":"Received DELETE request at /api/evaluation-criteria/64870efba281c152ce94e313"}
+{"level":"info","message":"Received POST request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64873a5d77db4898051354d1&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64873a5d77db4898051354d1&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received PUT request at /api/presentations/add/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64873a5d77db4898051354d1&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64873a5d77db4898051354d1&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received PUT request at /api/presentations/complete/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/report/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/report/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received PUT request at /api/presentations/add/64874a86a084c11709319e1c"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5f"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=648720207b7a1bd87fcf5a5e"}
+{"level":"info","message":"Received GET request at /api/presentations/64874a86a084c11709319e1c/download"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/64874a86a084c11709319e1c"}
+{"level":"info","message":"Received GET request at /api/presentations/report/64874a86a084c11709319e1c"}
+{"level":"info","message":"Received POST request at /api/auth/send-credentials"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /favicon.ico"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/send-credentials"}
+{"address":"52.97.173.22","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","message":"Unhandled Promise Rejection: connect ETIMEDOUT 52.97.173.22:587","port":587,"stack":"Error: connect ETIMEDOUT 52.97.173.22:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","syscall":"connect"}
+{"address":"40.101.92.22","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","message":"Unhandled Promise Rejection: connect ETIMEDOUT 40.101.92.22:587","port":587,"stack":"Error: connect ETIMEDOUT 40.101.92.22:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","syscall":"connect"}
+{"level":"info","message":"Received POST request at /api/auth/send-credentials"}
+{"level":"info","message":"Received POST request at /api/auth/send-credentials"}
+{"address":"52.98.200.182","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","message":"Unhandled Promise Rejection: connect ETIMEDOUT 52.98.200.182:587","port":587,"stack":"Error: connect ETIMEDOUT 52.98.200.182:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","syscall":"connect"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received POST request at /api/auth/send-credentials"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /images/icons/gear.png"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/presentations/64874a86a084c11709319e1c/download"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/648677d79a7f2e8b6a6a3fbc"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/64873a5d77db4898051354d1"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received POST request at /api/auth/send-credentials"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487956b94e5499a345c14cf"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648795f394e5499a345c14d2"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487964694e5499a345c14e3"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487964694e5499a345c14e3"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487967d94e5499a345c14e6"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648796ac94e5499a345c14ea"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648796ac94e5499a345c14ea"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648796df94e5499a345c14ee"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648796df94e5499a345c14ee"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487971994e5499a345c14f2"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487974894e5499a345c14f5"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487974894e5499a345c14f5"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487974894e5499a345c14f5"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487979f94e5499a345c14fa"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648797ec94e5499a345c14fd"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487986d94e5499a345c150e"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487986d94e5499a345c150e"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648797ec94e5499a345c14fd"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487986d94e5499a345c150e"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=64874a86a084c11709319e1c&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648798bc94e5499a345c1522"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648798f694e5499a345c1525"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487992b94e5499a345c1528"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487992b94e5499a345c1528"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487992b94e5499a345c1528"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648798f694e5499a345c1525"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648798bc94e5499a345c1522"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487986d94e5499a345c150e"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/648799d99acb243c85308b6a"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487986d94e5499a345c150e"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487f40b134c074643ccb557"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487f40b134c074643ccb557"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487f40b134c074643ccb557"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487f470134c074643ccb55d"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/evaluate/6487f495134c074643ccb560"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f568134c074643ccb590&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f568134c074643ccb590&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received PUT request at /api/presentations/add/6487f568134c074643ccb590"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f568134c074643ccb590&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f568134c074643ccb590&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f568134c074643ccb590&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f568134c074643ccb590&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received PUT request at /api/presentations/complete/6487f568134c074643ccb590"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487f568134c074643ccb590"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487f568134c074643ccb590"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received PUT request at /api/evaluation-criteria/648572f1c2e909a5278ec801"}
+{"level":"info","message":"Received PUT request at /api/evaluation-criteria/648572f1c2e909a5278ec801"}
+{"level":"info","message":"Received POST request at /api/evaluation-criteria"}
+{"level":"info","message":"Received DELETE request at /api/evaluation-criteria/6487f612134c074643ccb5ec"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f647134c074643ccb5f4&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f647134c074643ccb5f4&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received PUT request at /api/presentations/add/6487f647134c074643ccb5f4"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f647134c074643ccb5f4&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=6487f647134c074643ccb5f4&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received PUT request at /api/presentations/complete/6487f647134c074643ccb5f4"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487f568134c074643ccb590"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487f568134c074643ccb590"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487f647134c074643ccb5f4"}
+{"level":"info","message":"Received GET request at /api/presentations/report/6487f647134c074643ccb5f4"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received DELETE request at /api/evaluation-criteria/6487f548134c074643ccb58d"}
+{"level":"info","message":"Received DELETE request at /api/evaluation-criteria/64874ab5a084c11709319e27"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received PUT request at /api/evaluation-criteria/6487f542134c074643ccb58b"}
+{"level":"info","message":"Received PUT request at /api/evaluation-criteria/6487f542134c074643ccb58b"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received POST request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=onprogress"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648853672fe1156455acdf8d&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received PUT request at /api/presentations/add/648853672fe1156455acdf8d"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received POST request at /api/evaluations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluations?presentation=648853672fe1156455acdf8d&evaluator=64875de2f2ebb7f8a780063d"}
+{"level":"info","message":"Received PUT request at /api/presentations/complete/648853672fe1156455acdf8d"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations/report/648853672fe1156455acdf8d"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received POST request at /api/auth/login"}
+{"level":"info","message":"App listening on port 3500"}
+{"level":"info","message":"Connected to the database"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/presentations?status=waiting&status=onprogress"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}
+{"level":"info","message":"Received GET request at /api/evaluation-criteria"}

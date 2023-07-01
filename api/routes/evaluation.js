@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { Auth } = require('../middlewares/auth');
 const EvaluationController = require('../controllers/evaluation');
-const Evaluation = require('../models/evaluation');
+const Evaluation = require('../models/Evaluation');
 const advancedResult = require('../middlewares/advancedResult');
 
 // Evaluation Routes
