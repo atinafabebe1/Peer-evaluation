@@ -6,7 +6,10 @@ The MERN Stack Peer Evaluation System is an interactive platform for student pre
 
 ### demo
 
-https://github.com/atinafabebe1/Peer-evaluation/assets/109695272/b11efadf-3827-4ca6-a7e0-22072c9e4095
+
+https://github.com/atinafabebe1/Peer-evaluation/assets/109695272/701f6a64-e7cb-4012-80db-b5aa18b72a54
+
+
 
  demo
 
